@@ -6,13 +6,19 @@ export default function Nav() {
         <div className="col-3">
             <div className="list-group">
                 <Link href="/" className="list-group-item list-group-item-action">
-                    Home
+                    Welcome 
                 </Link>
                 <Link href="/about" className="list-group-item list-group-item-action">
-                    About Us
+                    About us
                 </Link>
                 <Link href="/contact" className="list-group-item list-group-item-action">
-                    Contact Us
+                    Classes
+                </Link>
+                <Link href="/contact" className="list-group-item list-group-item-action">
+                    Packages
+                </Link>
+                <Link href="/contact" className="list-group-item list-group-item-action">
+                    Contact
                 </Link>
             </div>
             <p className="small text-danger text-center mt-3 text-warning">
