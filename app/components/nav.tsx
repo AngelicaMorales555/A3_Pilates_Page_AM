@@ -21,7 +21,7 @@ export default function Nav() {
           >
             <h1>Nice to see you here!</h1>
             <p className="small m-0">
-              Welcome to CoreFlow Pilates—a studio where strength, flexibility, and mindfulness come together.
+              Welcome to The Pilates Room, a studio where strength, flexibility, and mindfulness come together.
             </p>
             <p></p>
             <p className="small m-0">
@@ -40,27 +40,42 @@ export default function Nav() {
     </div>
 
 
-    <div className="main-card"></div>
-    <div className="card mb-3" style={{ maxWidth: '660px' }}>
-      <div className="row g-0">
-        <div className="col-md-4">
-        <img
-            className="d-block w-100 mb-3"
-            src="pilates_reformer.jpg"
-            alt="Pilates Imag2e"
-            style={{ objectFit: 'cover', height: '100%' }}
-          />
+    <p>
+    </p>
+
+    <p></p>
+
+    <h1 className="classes">Our Classes</h1>
+    <p></p>
+
+
+    <div className="card-group">
+      <div className="card">
+      <img className="d-block w-100 mb-3" src="images/pilates_reformer.jpg" />
+        <div className="card-body">
+          <h5 className="card-title">Pilates Reformer</h5>
+          <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
-        <div className="col-md-8">
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
+      </div>
+
+      <div className="card">
+        <img className="d-block w-100 mb-3" src="images/pilates_floor.jpg" />
+        <div className="card-body">
+          <h5 className="card-title">Pilates Floor</h5>
+          <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div className="card">
+      <img className="d-block w-100 mb-3" src="images/pilates_pose 1.png" />
+        <div className="card-body">
+          <h5 className="card-title">Advanced Pilates</h5>
+          <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
       </div>
     </div>
-    
 
 
     <div className="card mb-3" style={{ maxWidth: '660px' }}>
