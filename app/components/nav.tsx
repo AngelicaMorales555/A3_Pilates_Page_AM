@@ -132,90 +132,91 @@ export default function Nav() {
     <h1 className="classes">Our packages and discounts </h1>
     <p></p>
 
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Private Class Reformer</h5>
-        <h6 className="card-validation">Valid for 1 day</h6>
-        <p className="card-text">A Private Pilates Reformer Class offers a personalized workout to improve strength, flexibility, and posture, tailored to your goals.</p>
-        <a href="#" className="card-link">$20 CAD</a>
-        <p></p>
-      </div>
+    <div className="container_packages">
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Private Class Reformer</h5>
+      <h6 className="card-validation">Valid for 1 day</h6>
+      <p className="card-text">A Private Pilates Reformer Class offers a personalized workout to improve strength, flexibility, and posture, tailored to your goals.</p>
+      <a href="#" className="card-link">$20 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Reformer class</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-        <a href="#" className="card-link">$15 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Reformer class</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
+      <a href="#" className="card-link">$15 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Reformer 4 classes</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-        <a href="#" className="card-link">$80 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Reformer 4 classes</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
+      <a href="#" className="card-link">$80 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Pilates Mat 4 classes</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">
-          A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
-        <a href="#" className="card-link">$60 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Pilates Mat 4 classes</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
+      <a href="#" className="card-link">$60 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Reformer 8 classes</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-        <a href="#" className="card-link">$15 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Reformer 8 classes</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
+      <a href="#" className="card-link">$15 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Pilates Mat 8 classes</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">
-          A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
-        <a href="#" className="card-link">$150 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Pilates Mat 8 classes</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
+      <a href="#" className="card-link">$150 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Reformer 12 classes</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-        <a href="#" className="card-link">$210 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Reformer 12 classes</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
+      <a href="#" className="card-link">$210 CAD</a>
+      <p></p>
     </div>
+  </div>
 
-    <div className="card_prices" style={{ width: '18rem' }}>
-      <div className="card-body_prices">
-        <h5 className="card-title">Pilates Mat 8 classes</h5>
-        <h6 className="card-validation">Valid for 30 days</h6>
-        <p className="card-text">
-          A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
-        <a href="#" className="card-link">$150 CAD</a>
-        <p></p>
-      </div>
+  <div className="card_prices">
+    <div className="card-body_prices">
+      <h5 className="card-title">Pilates Mat 8 classes</h5>
+      <h6 className="card-validation">Valid for 30 days</h6>
+      <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
+      <a href="#" className="card-link">$150 CAD</a>
+      <p></p>
     </div>
+  </div>
+</div>
+
+
+
+
 
     <p></p>
 
@@ -226,23 +227,24 @@ export default function Nav() {
         className="cintillo"
         src="images/Frame 11.png"
         alt="Pilates Image"
-        style={{ objectFit: 'cover', width: '40%', height: 'auto' }}
+        style={{ objectFit: 'cover', width: '60%', height: 'auto' }}
       />
     </div>
+    <p></p>
+    <p></p>
 
 
     <div className="card_footer">
       <div className="card-header">
-        @ThePilatesRoom
+       <h1 className="title_footer"> @ThePilatesRoom </h1>
       </div>
       <div className="card-body">
-        <h5 className="card-title">Say hello</h5>
         <p className="card-text">832 College St
           Level 2, Toronto,
           ON M6G 1C8
 
         </p>
-        <a href="#" className="btn btn-primary">Book a class</a>
+       
       </div>
       <div className="card-footer text-body-secondary">
       © 2024 The Pilates Room Ltd. All rights reserved.
