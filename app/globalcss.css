@@ -1,156 +1,171 @@
 :root {
 
-    /*Color guide*/
-    --principal-color-green: #9A997B;
-    --principal-color-black: #444444;
-    --principal-color-gray: #716D64;
-    --principal-color-light-brown: #D1BAB4;
-    --principal-color-light2-brown: #DFD0C9;
-    --principal-color-white: #F9F8F6;
-    --principal-color-accent: #AF523A;
+  /*Color guide*/
+  --principal-color-green: #9A997B;
+  --principal-color-black: #444444;
+  --principal-color-gray: #716D64;
+  --principal-color-light-brown: #D1BAB4;
+  --principal-color-light2-brown: #DFD0C9;
+  --principal-color-white: #F9F8F6;
+  --principal-color-accent: #AF523A;
 
 
-    /*fonts*/
-    --font-size: 60px;
-    --font-size-content: 16px;
-    --font-size-button: 18px;
-    --font-size-services-titles: 20px;
+  /*fonts*/
+  --font-size: 60px;
+  --font-size-content: 16px;
+  --font-size-button: 18px;
+  --font-size-services-titles: 20px;
 
-   
+
 }
 
 
-body
-{
-    background-color: var(--principal-color-white) !important;
+body {
+  background-color: var(--principal-color-white) !important;
 }
 
-h1
-{
-    color: var(--principal-color-green) !important;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: var(--font-size) !important;
+h1 {
+  color: var(--principal-color-green) !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: var(--font-size) !important;
 }
 
-.card_pilates
-{
-    background-color: var(--principal-color-white);
-    border: 1px solid var(--principal-color-green);
-    border-radius: 8px;
+.card_pilates {
+  background-color: var(--principal-color-white);
+  border: 1px solid var(--principal-color-green);
+  border-radius: 8px;
 
 }
 
-p
-{
-    font-size: var(--font-size-content) !important;
+p {
+  font-size: var(--font-size-content) !important;
 }
 
-.classes
-{
-    text-align: center !important;
+.classes {
+  text-align: center !important;
 }
 
 
 .button-classes {
-    padding: 10px 20px;               
-    background-color: var(--principal-color-green);
-    color: #fff;                     
-    border: 2px solid var(--principal-color-green);        
-    border-radius: 80px;               
-    font-size: var(--font-size-button);  
-    cursor: pointer;                 
-    transition: background-color 0.3s ease; 
-    width: 30%;
-    font-weight: bold;
-  }
-  
-
-  .button-classes:hover {
-    background-color: var(--principal-color-gray);    
-  }
-  
-
-  .card-title
-  {
-    color: var(--principal-color-green) !important;
-    font-size: var(--font-size-services-titles);
-  }
+  padding: 10px 20px;
+  background-color: var(--principal-color-green);
+  color: #fff;
+  border: 2px solid var(--principal-color-green);
+  border-radius: 80px;
+  font-size: var(--font-size-button);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30%;
+  font-weight: bold;
+}
 
 
-  .text-body-secundary
-  {
-    font-size: 10px;
-  }
-
-  .button-classes_card {
-    padding: 10px 20px;               
-    background-color: var(--principal-color-green);
-    color: #fff;                     
-    border: 2px solid var(--principal-color-green);        
-    border-radius: 80px;               
-    font-size: var(--font-size-content);
-    cursor: pointer;                 
-    transition: background-color 0.3s ease; 
-    width: 100%;
-
-  }
-  
-
-  .button-classes_card:hover {
-    background-color: var(--principal-color-gray);    
-  }
+.button-classes:hover {
+  background-color: var(--principal-color-gray);
+}
 
 
-  .card-validation
-  {
-    color: #7e7e7e !important;
-  }
+.card-title {
+  color: var(--principal-color-green) !important;
+  font-size: var(--font-size-services-titles);
+}
 
 
-  .card-link
-  {
-    font-size: 28px;
-    color: var(--principal-color-accent);
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: auto;            /* Empuja el enlace hacia abajo */
-  }
+.text-body-secundary {
+  font-size: 10px;
+}
 
-  .card-body_prices
-  {
-    text-align: center;
-    padding-top: 10%;
-    display: flex;
-    flex-direction: column;      /* Asegura que los elementos dentro del card-body se apilen verticalmente */
-    justify-content: space-between; /* Mantiene los elementos distribuidos verticalmente */
-    flex-grow: 1;                /* Permite que el body ocupe el espacio restante */
-  }
-    
-  
+.button-classes_card {
+  padding: 10px 20px;
+  background-color: var(--principal-color-green);
+  color: #fff;
+  border: 2px solid var(--principal-color-green);
+  border-radius: 80px;
+  font-size: var(--font-size-content);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
 
-  .card_prices
-  {
-    margin-right: 2% !important;
+}
+
+
+.button-classes_card:hover {
+  background-color: var(--principal-color-gray);
+}
+
+
+.card-validation {
+  color: #7e7e7e !important;
+}
+
+
+.card-link {
+  font-size: 28px;
+  color: var(--principal-color-accent);
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: auto;
+  /* Empuja el enlace hacia abajo */
+}
+
+.card-body_prices {
+  text-align: center;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  /* Asegura que los elementos dentro del card-body se apilen verticalmente */
+  justify-content: space-between;
+  /* Mantiene los elementos distribuidos verticalmente */
+  flex-grow: 1;
+  /* Permite que el body ocupe el espacio restante */
+}
+
+
+
+.card_prices {
+  margin-right: 2% !important;
   margin-bottom: 2% !important;
   background-color: #fff;
   border: 1px solid var(--principal-color-green);
   border-radius: 8px;
-    
 
-  }
 
-  .carousel slide
-  {
-    border: 1px solid var(--principal-color-green) !important;
+}
+
+.carousel slide {
+  border: 1px solid var(--principal-color-green) !important;
   border-radius: 8px !important;
-  }
+}
 
-  .cintillo
-  {
-    display: flex;               /* Activa Flexbox */
-  justify-content: center;     /* Centra horizontalmente */
-  align-items: center;         /* Centra verticalmente */
-  height: 100vh;  
-  }
+.cintillo {
+  display: flex;
+  /* Activa Flexbox */
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  height: 100vh;
+}
 
-  
+
+.card_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centra los elementos verticalmente */
+  align-items: center;  /* Centra los elementos horizontalmente */
+  padding: 20px 0;  /* Espacio arriba y abajo */
+  height: 100%;  /* Asegura que el contenedor ocupe toda la altura disponible */
+  background-color: var(--principal-color-light-brown) !important;
+  border: opx solid var(--principal-color-green);
+  border-radius: 8px;
+}
+
+.card-header, .card-body, .card-footer {
+  width: 100%;  /* Asegura que los elementos dentro del card ocupen todo el ancho */
+  text-align: center;  /* Centra el contenido de los textos */
+}
+
+.card-body {
+  margin-top: 20px; /* Espacio entre la cabecera y el cuerpo de la tarjeta */
+  margin-bottom: 20px; /* Espacio entre el cuerpo y el pie de la tarjeta */
+}

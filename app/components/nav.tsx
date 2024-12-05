@@ -220,27 +220,32 @@ export default function Nav() {
     <p></p>
 
 
-  <div>
-    <img
-      className="cintillo"
-      src="images/Frame 11.png"
-      alt="Pilates Image"
-      style={{ objectFit: 'cover', width: '40%', height: 'auto' }}  // Ajusta el ancho y mantiene la proporción
-    />
-</div>
+
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+      <img
+        className="cintillo"
+        src="images/Frame 11.png"
+        alt="Pilates Image"
+        style={{ objectFit: 'cover', width: '40%', height: 'auto' }}
+      />
+    </div>
 
 
-    <div className="card text-center">
+    <div className="card_footer">
       <div className="card-header">
-        Featured
+        @ThePilatesRoom
       </div>
       <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
+        <h5 className="card-title">Say hello</h5>
+        <p className="card-text">832 College St
+          Level 2, Toronto,
+          ON M6G 1C8
+
+        </p>
+        <a href="#" className="btn btn-primary">Book a class</a>
       </div>
       <div className="card-footer text-body-secondary">
-        2 days ago
+      © 2024 The Pilates Room Ltd. All rights reserved.
       </div>
     </div>
   </>
