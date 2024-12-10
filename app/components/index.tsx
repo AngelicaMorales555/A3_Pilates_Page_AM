@@ -13,7 +13,7 @@ export default function Nav() {
             alt="Pilates Image"
             style={{ objectFit: 'cover', height: '100%' }}
           />
-        </div>
+        </div> 
 
 
 
