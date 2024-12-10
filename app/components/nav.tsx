@@ -20,7 +20,7 @@ export default function Nav() {
         <div className="col-md-8">
           <div
             className="card-body d-flex flex-column justify-content-center align-items-center"
-            style={{ padding: '30px', height: '100%' }}
+            style={{ padding: '30px', height: '80%' }}
           >
             <h1>Nice to see you here!</h1>
             <p></p>
@@ -133,86 +133,86 @@ export default function Nav() {
     <p></p>
 
     <div className="container_packages">
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Private Class Reformer</h5>
-      <h6 className="card-validation">Valid for 1 day</h6>
-      <p className="card-text">A Private Pilates Reformer Class offers a personalized workout to improve strength, flexibility, and posture, tailored to your goals.</p>
-      <a href="#" className="card-link">$20 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Private Class Reformer</h5>
+          <h6 className="card-validation">Valid for 1 day</h6>
+          <p className="card-text">A Private Pilates Reformer Class offers a personalized workout to improve strength, flexibility, and posture, tailored to your goals.</p>
+          <a href="#" className="card-link">$20 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Reformer class</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-      <a href="#" className="card-link">$15 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Reformer class</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels. Ready to improve your fitness life?</p>
+          <a href="#" className="card-link">$15 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Reformer 4 classes</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-      <a href="#" className="card-link">$80 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Reformer 4 classes</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels while promoting a supportive community atmosphere. </p>
+          <a href="#" className="card-link">$80 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Pilates Mat 4 classes</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
-      <a href="#" className="card-link">$60 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Pilates Mat 4 classes</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. It's a great way to build core strength.</p>
+          <a href="#" className="card-link">$60 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Reformer 8 classes</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-      <a href="#" className="card-link">$15 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Reformer 8 classes</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">We offer a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels, and designed to enhance endurance and overall health.</p>
+          <a href="#" className="card-link">$15 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Pilates Mat 8 classes</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
-      <a href="#" className="card-link">$150 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Pilates Mat 8 classes</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
+          <a href="#" className="card-link">$150 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Reformer 12 classes</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels.</p>
-      <a href="#" className="card-link">$210 CAD</a>
-      <p></p>
-    </div>
-  </div>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Reformer 12 classes</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">A Pilates Reformer Class offers a dynamic group workout to improve strength, flexibility, and posture, suitable for all fitness levels, while promoting core stability and overall body alignment.</p>
+          <a href="#" className="card-link">$210 CAD</a>
+          <p></p>
+        </div>
+      </div>
 
-  <div className="card_prices">
-    <div className="card-body_prices">
-      <h5 className="card-title">Pilates Mat 8 classes</h5>
-      <h6 className="card-validation">Valid for 30 days</h6>
-      <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
-      <a href="#" className="card-link">$150 CAD</a>
-      <p></p>
+      <div className="card_prices">
+        <div className="card-body_prices">
+          <h5 className="card-title">Pilates Mat 8 classes</h5>
+          <h6 className="card-validation">Valid for 30 days</h6>
+          <p className="card-text">A Pilates Mat Class offers a full-body workout to improve strength, flexibility, and posture using just a mat. Suitable for all levels, it's a great way to build core strength and enhance mobility.</p>
+          <a href="#" className="card-link">$150 CAD</a>
+          <p></p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
 
 
@@ -236,7 +236,7 @@ export default function Nav() {
 
     <div className="card_footer">
       <div className="card-header">
-       <h1 className="title_footer"> @ThePilatesRoom </h1>
+        <h1 className="title_footer"> @ThePilatesRoom </h1>
       </div>
       <div className="card-body">
         <p className="card-text">832 College St
@@ -244,10 +244,14 @@ export default function Nav() {
           ON M6G 1C8
 
         </p>
-       
+
+        <p className="card-text"> +52 934 544 34 77
+
+        </p>
+
       </div>
       <div className="card-footer text-body-secondary">
-      © 2024 The Pilates Room Ltd. All rights reserved.
+        © 2024 The Pilates Room Ltd. All rights reserved.
       </div>
     </div>
   </>
